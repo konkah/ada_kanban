@@ -1,14 +1,18 @@
-const express = require('express')
-const { auth, login } = require('./authentication')
+const express = require('express');
+const { auth, login } = require('./authentication');
+const { getCards, postCards } = require('./cards');
 
 
-const app = express()
-app.use(express.json())
+const app = express();
+app.use(express.json());
 
-app.get('/', (request, response) => response.json({status: 'online'}))
+app.get('/', (request, response) => response.json({status: 'online'}));
 
-app.use(auth)
+app.use(auth);
 
-app.post('/login', login)
+app.post('/login', login);
+
+app.get('/cards', getCards);
+app.post('/cards', postCards);
 
 app.listen(5000, () => console.log('Access http://localhost:5000'));
