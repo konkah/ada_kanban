@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  ada-kanban-api:
+    build:
+      context: ..
+      dockerfile: containers/dev.Dockerfile
+    env_file:
+      - ../env/back/dev.env
+    volumes:
+      - ../BACK:/var/www/
+    ports:
+      - "5000:5000"
+    expose:
+      - '5000'
+    depends_on:
+      ada-kanban-db-mysql:
+        condition: service_healthy
+
+
+  ada-kanban-db-mysql:
+    image: mysql:8.0.30
+    restart: always
+    hostname: ada-kanban-db-mysql
+    container_name: ada-kanban-db-mysql
+    env_file:
+      - ../env/back/dev.env
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - ../db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
