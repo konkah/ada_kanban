@@ -12,7 +12,7 @@ exports.login = (request, response) => {
         return response.json({'token': token});
     }
 
-    return response.sendStatus(403);
+    return response.sendStatus(401);
 }
 
 exports.auth = (request, response, next) => {
@@ -31,7 +31,7 @@ exports.auth = (request, response, next) => {
         
         (err, _) => {
             if (err)
-                return response.sendStatus(403);
+                return response.sendStatus(401);
             return next();
         }
     
