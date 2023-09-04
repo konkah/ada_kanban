@@ -63,7 +63,7 @@ exports.putCards = async (request, response) => {
 
     if (!dbCard) {
         console.error('Failed to update data: ', urlId);
-        response.sendStatus(404);
+        return response.sendStatus(404);
     }
 
     dbCard.title = title;
@@ -91,7 +91,7 @@ exports.deleteCards = async (request, response) => {
 
     if (!dbCard) {
         console.error('Failed to delete data: ', urlId);
-        response.sendStatus(404);
+        return response.sendStatus(404);
     }
 
     await Card.destroy(

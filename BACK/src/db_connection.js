@@ -2,7 +2,8 @@ const Sequelize = require('sequelize');
 
 const dbDatabase = process.env.MYSQL_DATABASE;
 const dbUsername = process.env.MYSQL_USER;
-const dbPassword = process.env.MYSQL_PASSWORD
+const dbPassword = process.env.MYSQL_PASSWORD;
+const silentSequelize = new Boolean(process.env.SILENT_SEQUELIZE);
 
 exports.sequelize = new Sequelize(
     dbDatabase,
@@ -11,8 +12,9 @@ exports.sequelize = new Sequelize(
     {
         host: 'ada-kanban-db-mysql',
         dialect: 'mysql',
+        logging: !silentSequelize,
     }
-)
+);
 
 exports.connect_to_db = () => exports.sequelize.authenticate()
     .then(
