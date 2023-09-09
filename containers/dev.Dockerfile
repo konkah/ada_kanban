@@ -21,9 +21,8 @@ RUN apt upgrade -y \
 WORKDIR /var/www
 COPY ./BACK/package.json package.json
 RUN corepack enable
-RUN yarn
 
 
 EXPOSE 8000
 
-CMD yarn dev
+CMD yarn install && yarn dev || tail -f /dev/null
