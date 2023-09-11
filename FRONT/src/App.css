@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  font-size: 1vw;
+}
+
+h1, h2, h3 {
+  padding: 0;
+}
+
+h1 {
+  font-size: 2vw;
+  margin: 5vh 0;
+}
+
+h2 {
+  font-size: 1.5vw;
+  margin: 3vh 0;
+}
+
+h3 {
+  font-size: 1.3vw;
+  min-height: 1.3vw;
+  margin: 0 0 2vh 0;
+}
+
+article {
+  min-height: 2vw;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: calc(90vh - 4vw);
+}
+
+.column {
+  width: 21vw;
+  padding: 1vh 1vw;
+  background: #484c54;
+  border-radius: 0.5vw 1vw 1.5vw 2vw;
+}
+
+.card {
+  width: 18vw;
+  min-height: 20vh;
+  background: #080c14;
+  border-radius: 0.5vw 1vw 1.5vw 2vw;
+  text-align: justify;
+  padding: 3vh 1.5vw;
+  margin: 0 0 2vh 0;
+}
+
+input, textarea {
+  width: 18vw;
+  background: #E8EcF4;
+  border: 2px #484c54 solid;
+  box-sizing: border-box;
+  resize: none;
+  margin: 0 0 1vh 0;
+  border-radius: 1vh;
+}
+
+button {
+  background: #E8EcF4;
+  border: none;
+  margin: 5vh 0 0 0;
+  border-radius: 1.5vw;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  height: 2.5vw;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.error {
+  border: 2px #C00 solid;
+  background-color: #FCC;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
