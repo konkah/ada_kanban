@@ -1,10 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const { auth, login } = require('./authentication');
 const { getCards, postCards, putCards, deleteCards, logUpdateOrDelete } = require('./cards');
 
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get('/', (request, response) => response.json({status: 'online'}));
 
