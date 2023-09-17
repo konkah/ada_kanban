@@ -3,7 +3,7 @@ services:
   ada-kanban-api:
     build:
       context: ..
-      dockerfile: containers/dev.Dockerfile
+      dockerfile: containers/back/dev.Dockerfile
     env_file:
       - ../env/back/dev.env
     volumes:
@@ -15,6 +15,22 @@ services:
     depends_on:
       ada-kanban-db-mysql:
         condition: service_healthy
+
+
+  ada-kanban-front:
+    build:
+      context: ..
+      dockerfile: containers/front/dev.Dockerfile
+    env_file:
+      - ../env/front/dev.env
+    volumes:
+      - ../FRONT:/var/www/
+    ports:
+      - "3000:3000"
+    expose:
+      - '3000'
+    depends_on:
+      - ada-kanban-api
 
 
   ada-kanban-db-mysql:
