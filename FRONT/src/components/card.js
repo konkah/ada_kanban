@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCheck, FaTimes, FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { FaCheck, FaTimes, FaAngleLeft, FaAngleRight, FaTrashAlt } from 'react-icons/fa';
 import { marked } from 'marked';
 
 
@@ -293,7 +293,7 @@ class Card extends React.Component {
 							onClick={() => this.delete()}
 							hidden={this.state.new}>
 
-							<FaTimes title="delete" />
+							<FaTrashAlt title="delete" />
 
 						</button>
 
