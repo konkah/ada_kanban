@@ -21,8 +21,6 @@ services:
     build:
       context: ..
       dockerfile: containers/front/dev.Dockerfile
-    env_file:
-      - ../env/front/dev.env
     volumes:
       - ../FRONT:/var/www/
     ports:
