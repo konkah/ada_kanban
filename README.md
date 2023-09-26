@@ -25,21 +25,25 @@ https://simpleicons.org/
 
 ![GitHub](https://img.shields.io/github/license/konkah/ada_kanban)
 
+---
 
-## Content Table
+<p align="center">
+<a href="#ada-kanban">Home</a>
+&nbsp;&bull;&nbsp;
+<a href="#installation">Installation</a>
+&nbsp;&bull;&nbsp;
+<a href="#how-to-run">How to run</a>
+&nbsp;&bull;&nbsp;
+<a href="#features">Features</a>
+</p>
 
-- [About](#ada-kanban)
-- [Technologies](#technologies)
-- [Content Table](#content-table)
-- [Requirements](#requirements)
-- [How to run](#how-to-run)
-- [Features](#features)
+---
 
 
-[Back to top](#ada-kanban)
+## Installation
 
-
-## Requirements
+[![Docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 
 ### Docker
 
