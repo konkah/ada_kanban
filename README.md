@@ -28,7 +28,7 @@ https://simpleicons.org/
 ---
 
 <p align="center">
-<a href="README.md">Home</a>
+<b>Home</b>
 &nbsp;&bull;&nbsp;
 <a href="installation.md">Installation</a>
 &nbsp;&bull;&nbsp;

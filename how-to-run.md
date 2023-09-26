@@ -1,14 +1,23 @@
 ---
 
 <a name="menu"></a>
+
 <p align="center">
 <a href="README.md">Home</a>
 &nbsp;&bull;&nbsp;
 <a href="installation.md">Installation</a>
 &nbsp;&bull;&nbsp;
-<a href="how-to-run.md">How to run</a>
+<b>How to run</b>
 &nbsp;&bull;&nbsp;
 <a href="features.md">Features</a>
+</p>
+
+<p align="center">
+<a href="#backend">Backend</a>
+&nbsp;&bull;&nbsp;
+<a href="#frontend">Frontend</a>
+&nbsp;&bull;&nbsp;
+<a href="#running-the-machines">Running the machines</a>
 </p>
 
 ---

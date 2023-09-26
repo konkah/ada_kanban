@@ -1,14 +1,22 @@
 ---
 
 <a name="menu"></a>
+
 <p align="center">
 <a href="README.md">Home</a>
 &nbsp;&bull;&nbsp;
-<a href="installation.md">Installation</a>
+<b>Installation</b>
 &nbsp;&bull;&nbsp;
 <a href="how-to-run.md">How to run</a>
 &nbsp;&bull;&nbsp;
 <a href="features.md">Features</a>
+
+<p align="center">
+<a href="#docker">Docker</a>
+&nbsp;&bull;&nbsp;
+<a href="#makefile">Makefile</a>
+</p>
+
 </p>
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 <a name="menu"></a>
+
 <p align="center">
 <a href="README.md">Home</a>
 &nbsp;&bull;&nbsp;
@@ -8,7 +9,13 @@
 &nbsp;&bull;&nbsp;
 <a href="how-to-run.md">How to run</a>
 &nbsp;&bull;&nbsp;
-<a href="features.md">Features</a>
+<b>Features</b>
+</p>
+
+<p align="center">
+<a href="#api">API</a>
+&nbsp;&bull;&nbsp;
+<a href="#graphical-interface">Graphical Interface</a>
 </p>
 
 ---
