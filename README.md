@@ -362,11 +362,11 @@ Response example:
 
 A frontend using React was developed.
 
-[Kanban Clear Screenshot](kanban-clear.png)
+![Kanban Clear Screenshot](kanban-clear.png)
 
 The frontend shows all the existent cards and allows you to create new cards, edit them by clicking on the title or text, move the cards between columns and delete the cards.
 
-[Kanban With Cards Screenshot](kanban-filled.png)
+![Kanban With Cards Screenshot](kanban-filled.png)
 
 
 [Back to top](#ada-kanban)
