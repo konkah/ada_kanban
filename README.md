@@ -14,12 +14,12 @@ Para ícones dos badges:
 https://simpleicons.org/
 -->
 
+[![WSL](https://img.shields.io/badge/WSL-20232A.svg?logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
+[![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 [![Node](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/en)
 [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)](https://www.docker.com/)
-[![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
-[![WSL](https://img.shields.io/badge/WSL-20232A.svg?logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 
 ## License
