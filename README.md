@@ -19,7 +19,7 @@ https://simpleicons.org/
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)](https://www.docker.com/)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
-[![WSL](https://img.shields.io/badge/wsl-FF1E0D.svg?logo=windows-terminal&logoColor=white)](https://www.docker.com/)
+[![WSL](https://img.shields.io/badge/WSL-20232A.svg?logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 
 ## License

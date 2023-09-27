@@ -27,7 +27,7 @@
 
 # Installation
 
-[![WSL](https://img.shields.io/badge/wsl-FF1E0D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://www.docker.com/)
+[![WSL](https://img.shields.io/badge/wsl-20232A.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 
