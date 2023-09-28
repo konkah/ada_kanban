@@ -56,7 +56,7 @@ Response example:
 ```
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### GET `/cards`
@@ -103,7 +103,7 @@ Response example:
 ```
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### POST `/cards`
@@ -143,7 +143,7 @@ Response example:
 ```
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### PUT `/cards/<<card id>>`
@@ -184,7 +184,7 @@ Response example:
 ```
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### DELETE `/cards/<<id>>`
@@ -231,7 +231,7 @@ Response example:
 ```
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Graphical Interface
@@ -250,4 +250,4 @@ The frontend shows all the existent cards and allows you to create new cards, ed
 ![Kanban With Cards Screenshot](kanban-filled.png)
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>

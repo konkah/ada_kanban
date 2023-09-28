@@ -41,7 +41,7 @@ If the project is created on Windows, it is necessary to create WSL to install a
 https://learn.microsoft.com/en-us/windows/wsl/install
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Docker
@@ -62,7 +62,7 @@ Download Docker following the instructions on the website and install:
 https://docs.docker.com/engine/install/ubuntu/
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Docker Compose
@@ -74,7 +74,7 @@ To install Docker Compose, follow the instructions in this article:
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Makefile
@@ -86,4 +86,4 @@ Instead, it is possible to place these commands inside a file called Makefile an
 On Linux operating systems, Make commands usually work natively. On Windows, one of the possible ways to use Make is to install WSL.
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>

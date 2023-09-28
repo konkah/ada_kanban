@@ -47,7 +47,7 @@ Open `dev.env` file. There are some environment variables without value in the f
 - `MYSQL_PASSWORD`: password for the API to access MySQL database;
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Frontend
@@ -65,7 +65,7 @@ Open `.env` file. There are two environment variables without value in the file.
 - `REACT_APP_API_PASSWORD`: password to people and services to access the API;
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ## Running the machines
@@ -78,7 +78,7 @@ Open `.env` file. There are two environment variables without value in the file.
 <!-- Explicar que faz o build das imagens e roda as três máquinas - mysql, back e front -->
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### `make finish`
@@ -86,7 +86,7 @@ Open `.env` file. There are two environment variables without value in the file.
 <!-- Explicar que faz pára as três máquinas - mysql, back e front -, remove os containers e remove as imagens -->
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### `make api-print-logs`
@@ -94,7 +94,7 @@ Open `.env` file. There are two environment variables without value in the file.
 <!-- Explicar que mostra os logs da máquina de api -->
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
 
 
 ### `make front-print-logs`
@@ -102,4 +102,4 @@ Open `.env` file. There are two environment variables without value in the file.
 <!-- Explicar que mostra os logs da máquina do front -->
 
 
-<a href="#menu">Back to top</a>
+<a href="#menu">&#129033; back to top</a>
