@@ -17,7 +17,7 @@
 &nbsp;&bull;&nbsp;
 <a href="#frontend">Frontend</a>
 &nbsp;&bull;&nbsp;
-<a href="#running-the-machines">Running the machines</a>
+<a href="#running-the-containers">Running the containers</a>
 </p>
 
 ---
@@ -31,8 +31,6 @@ First, you need to set the environment variable files. Then you will be able to 
 
 [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.docker.com/)
-[![Docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 
 There is a folder at the root of the project called `env`, with another folder inside called `back`. Inside `back` folder there is a file called `example.env`. Make a copy of it, calling the copy `dev.env`.
 
@@ -54,8 +52,6 @@ Open `dev.env` file. There are some environment variables without value in the f
 
 [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 
 There is a folder at the root of the project called `FRONT`. Inside `FRONT` folder there is a file called `example.env`. Make a copy of it, calling the copy `.env`.
 
@@ -68,38 +64,46 @@ Open `.env` file. There are two environment variables without value in the file.
 <a href="#menu">&#129033; back to top</a>
 
 
-## Running the machines
+## Running the containers
 
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Makefile](https://img.shields.io/badge/Make-FF1E0D.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/manual/make.html)
 
-### `make start`
 
-<!-- Explicar que faz o build das imagens e roda as três máquinas - mysql, back e front -->
+### Initialize project
 
+```bash
+make start
+```
 
-<a href="#menu">&#129033; back to top</a>
-
-
-### `make finish`
-
-<!-- Explicar que faz pára as três máquinas - mysql, back e front -, remove os containers e remove as imagens -->
+This command is used to initialize the **database**, **backend** and **frontend** containers.
 
 
-<a href="#menu">&#129033; back to top</a>
+### Check Backend logs
+
+```bash
+make api-print-logs
+```
+
+This command displays logs from within the **backend** container. You must have previously run `make start`.
 
 
-### `make api-print-logs`
+### Check Frontend logs
 
-<!-- Explicar que mostra os logs da máquina de api -->
+```bash
+make front-print-logs
+```
+
+This command displays logs from within the **frontend** container. You must have previously run `make start`.
 
 
-<a href="#menu">&#129033; back to top</a>
+### Finish and clean project
 
+```bash
+make finish
+```
 
-### `make front-print-logs`
-
-<!-- Explicar que mostra os logs da máquina do front -->
+This command releases the resources used by the project on your local computer. It is important to run `make finish` at the end of using the project to save computer resources, such as memory, CPU and storage space.
 
 
 <a href="#menu">&#129033; back to top</a>
