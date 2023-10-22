@@ -32,7 +32,7 @@ services:
 
 
   ada-kanban-db-mysql:
-    image: mysql:8.0.30
+    image: mysql:8.1.0
     restart: always
     hostname: ada-kanban-db-mysql
     container_name: ada-kanban-db-mysql
